@@ -1,0 +1,22 @@
+<h1>Statistics</h1>
+
+<table>
+  <thead>
+    <tr>
+      <td>Table</td>
+      <td>Count</td>
+    </tr>
+  </thead>
+  <tbody>
+    <% @tables.each do |table| %>
+      <tr>
+        <td>
+          <%= table %>
+        </td>
+        <td>
+          <%= eval "#{table.classify}.count" %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
