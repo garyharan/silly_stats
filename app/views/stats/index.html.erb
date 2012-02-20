@@ -8,13 +8,13 @@
     </tr>
   </thead>
   <tbody>
-    <% @tables.each do |table| %>
+    <% @models.each do |model| %>
       <tr>
         <td>
-          <%= table %>
+          <%= model.name %>
         </td>
         <td>
-          <%= eval "#{table.classify}.count" %>
+          <%= model.count %>
         </td>
       </tr>
     <% end %>
