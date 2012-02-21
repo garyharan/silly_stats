@@ -7,11 +7,11 @@ require "simple_stats/version"
 Gem::Specification.new do |s|
   s.name        = "simple_stats"
   s.version     = SimpleStats::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of SimpleStats."
-  s.description = "TODO: Description of SimpleStats."
+  s.authors     = ["Gary Haran"]
+  s.email       = ["gary.haran@gmail.com"]
+  s.homepage    = "https://github.com/garyharan/simple_stats"
+  s.summary     = "Provides simple active_record model count"
+  s.description = s.summary
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
