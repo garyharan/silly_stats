@@ -1,4 +1,4 @@
-require "simple_stats/engine"
+require "silly_stats/engine"
 
-module SimpleStats
+module SillyStats
 end

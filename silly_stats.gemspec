@@ -1,16 +1,16 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "simple_stats/version"
+require "silly_stats/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "simple_stats"
-  s.version     = SimpleStats::VERSION
+  s.name        = "silly_stats"
+  s.version     = SillyStats::VERSION
   s.authors     = ["Gary Haran"]
   s.email       = ["gary.haran@gmail.com"]
-  s.homepage    = "https://github.com/garyharan/simple_stats"
-  s.summary     = "Provides simple active_record model count"
+  s.homepage    = "https://github.com/garyharan/silly_stats"
+  s.summary     = "Provides silly active_record model count"
   s.description = s.summary
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]

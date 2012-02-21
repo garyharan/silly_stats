@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  match 'stats', :to => 'stats#index'
+  match '/stats', :to => 'stats#index'
 end

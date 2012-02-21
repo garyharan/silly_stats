@@ -1,3 +1,3 @@
-= SimpleStats
+= SillyStats
 
 This project rocks and uses MIT-LICENSE.
